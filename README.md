@@ -1,2 +1,4 @@
 # Wablastrait
-A Trait for Wablastrait api (Laravel Wablas Library) 
+A Trait for Wablas api (Laravel Wablas Library) 
+
+https://wablas.com/
