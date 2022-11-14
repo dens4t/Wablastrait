@@ -21,7 +21,6 @@ trait WablasTrait
         if (strlen($noHP) < 10) return ['error'=>true];
         $curl = curl_init();
         $token = env('WABLAS_API_KEY');
-        $message .= "\n_Harap menyimpan kontak ini, agar dapat mengklik tautan surat._";
         $payload = [
             "data" => [[
                 'phone' => $noHP,
